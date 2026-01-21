@@ -1,0 +1,40 @@
+# akshare 源码参考目录
+_akshare_source/
+
+
+# Go 构建产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# 依赖目录
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试覆盖率
+coverage.out
+coverage.html
+
+# 构建目录
+bin/
+dist/
+
+# Claude Code 本地配置
+.claude/settings.local.json
+.claude/
+
+# Git 备份
+.git.bak/

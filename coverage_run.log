@@ -1,0 +1,26 @@
+?   	github.com/BlakeLiAFK/akshare-go	[no test files]
+ok  	github.com/BlakeLiAFK/akshare-go/air	2.478s	coverage: 15.5% of statements
+ok  	github.com/BlakeLiAFK/akshare-go/article	3.838s	coverage: 19.6% of statements
+ok  	github.com/BlakeLiAFK/akshare-go/bank	2.483s	coverage: 18.9% of statements
+--- FAIL: TestBondSpotQuote (1.71s)
+    bond_test.go:214: BondSpotQuote失败: 未获取到有效数据
+    bond_test.go:219: 期望至少有数据行，实际行数: 0
+    bond_test.go:222: 期望6列，实际列数: 0
+    bond_test.go:225: 现券市场做市报价数据: 行数=0, 列数=0
+--- FAIL: TestBondSpotDeal (1.66s)
+    bond_test.go:241: BondSpotDeal失败: 未获取到有效数据
+    bond_test.go:246: 期望至少有数据行，实际行数: 0
+    bond_test.go:249: 期望6列，实际列数: 0
+    bond_test.go:252: 现券市场成交行情数据: 行数=0, 列数=0
+--- FAIL: TestBondChinaCloseReturn (0.89s)
+    bond_test.go:293: BondChinaCloseReturn失败: 未获取到有效数据
+    bond_test.go:298: 期望至少有数据行，实际行数: 0
+    bond_test.go:301: 期望5列，实际列数: 0
+    bond_test.go:304: 收盘收益率曲线数据: 行数=0, 列数=0
+FAIL
+coverage: 26.2% of statements
+FAIL	github.com/BlakeLiAFK/akshare-go/bond	23.075s
+ok  	github.com/BlakeLiAFK/akshare-go/cal	1.160s	coverage: 89.0% of statements
+ok  	github.com/BlakeLiAFK/akshare-go/crypto	3.484s	coverage: 86.2% of statements
+ok  	github.com/BlakeLiAFK/akshare-go/currency	13.392s	coverage: 51.3% of statements
+?   	github.com/BlakeLiAFK/akshare-go/data	[no test files]
