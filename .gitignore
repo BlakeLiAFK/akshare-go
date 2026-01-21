@@ -35,6 +35,16 @@ dist/
 # Claude Code 本地配置
 .claude/settings.local.json
 .claude/
+CLAUDE.md
+plans/
+
+# 临时文档和日志
+*.log
+*_summary*.md
+*_report*.md
+*_analysis*.md
+*_fixes*.md
+*_plan*.md
 
 # Git 备份
 .git.bak/
